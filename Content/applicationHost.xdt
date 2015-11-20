@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <runtime xdt:Transform="InsertIfMissing">
+      <environmentVariables xdt:Transform="InsertIfMissing">
+        <add name="PATH" value="%HOME%\SiteExtensions\jruby\jruby-9.0.4.0\bin;%PATH%" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+      </environmentVariables>
+    </runtime>
+  </system.webServer>
+</configuration>

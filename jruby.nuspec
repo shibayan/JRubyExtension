@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>jruby</id>
+        <title>JRuby Extension</title>
+        <version>9.0.4.0</version>
+        <authors>shibayan</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>JRuby Extension for Azure Web Apps</description>
+        <tags>ruby</tags>
+    </metadata>
+    <files>
+        <file src="**" target="content" />
+    </files>
+</package>
