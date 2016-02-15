@@ -3,7 +3,8 @@
 :: Setup
 :: ----------------
 
-set JRUBY_VERSION=9.0.4.0
+set JRUBY_VERSION=9.0.5.0
+
 set JRUBY_HOME=%HOME%\SiteExtensions\jruby\jruby-%JRUBY_VERSION%
 set JRUBY_EXE=%JRUBY_HOME%\bin\jruby.exe
 set JRUBY_GEM_CMD=%JRUBY_HOME%\bin\gem
