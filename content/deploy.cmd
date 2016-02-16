@@ -64,7 +64,7 @@ set JAVA_OPTS=-Djava.net.preferIPv4Stack=true
 :: Deployment
 :: ----------
 
-echo Handling Basic Web Site deployment.
+echo Handling JRuby Web Site deployment.
 
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
