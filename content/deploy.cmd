@@ -73,7 +73,7 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 )
 
 :: 2. Exec Bundler
-IF EXIST "%DEPLOYMENT_TARGET%\Gemfile.lock" (
+IF EXIST "%DEPLOYMENT_TARGET%\Gemfile" (
   echo Executing bundle install
 
   PUSHD "%DEPLOYMENT_TARGET%"
