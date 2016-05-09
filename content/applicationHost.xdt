@@ -4,7 +4,7 @@
     <runtime xdt:Transform="Insert">
       <environmentVariables>
         <add name="APPSETTING_COMMAND" value="%XDT_EXTENSIONPATH%\deploy.cmd" />
-        <add name="JRUBY_HOME" value="%XDT_EXTENSIONPATH%\jruby-9.0.5.0" />
+        <add name="JRUBY_HOME" value="%XDT_EXTENSIONPATH%\jruby-9.1.0.0" />
         <add name="JAVA_OPTS" value="-Djava.net.preferIPv4Stack=true" />
       </environmentVariables>
     </runtime>
